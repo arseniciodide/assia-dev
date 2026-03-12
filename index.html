@@ -750,7 +750,7 @@
 
 <!-- NAV -->
 <nav>
-  <div class="nav-logo">JS.</div>
+  <div class="nav-logo">AM.</div>
   <ul class="nav-links">
     <li><a href="#about">About</a></li>
     <li><a href="#skills">Skills</a></li>
@@ -768,7 +768,7 @@
   <div class="section-content">
     <div class="hero-tag">Software Developer — Available for hire</div>
     <h1 class="hero-name">Assia<br><span>Meade.</span></h1>
-    <p class="hero-tagline">I build thoughtful, high-performance software — from polished frontends to distributed systems. Currently based in Delaware.</p>
+    <p class="hero-tagline">I build thoughtful, high-performance distributed systems. Currently based in Delaware.</p>
     <a href="#contact" class="hero-cta">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.68A2 2 0 012 .84h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
       Get in touch
@@ -801,7 +801,7 @@
         <p>I care deeply about <strong>code quality, developer experience</strong>, and writing software that people actually enjoy using. When I'm not shipping features, I'm exploring new tech, or reading books.</p>
         <div class="about-stats">
           <div>
-            <div class="stat-val">5+</div>
+            <div class="stat-val">15+</div>
             <div class="stat-label">Years experience</div>
           </div>
           <div>
@@ -809,7 +809,7 @@
             <div class="stat-label">Projects delivered</div>
           </div>
           <div>
-            <div class="stat-val">12</div>
+            <div class="stat-val">9</div>
             <div class="stat-label">Countries visited</div>
           </div>
         </div>
@@ -908,17 +908,17 @@
       <div>
         <ul class="hobby-list">
           <li class="hobby-item">
-            <span class="hobby-icon">🎶/🎤</span>
+            <span class="hobby-icon">🎤</span>
             <div>
-              <div class="hobby-name">Concerts/Live Events</div>
-              <div class="hobby-desc">Love attending all kinds of live shows: Rock, EDM, Pop, Classical. You can also find me at improve, comedy, and musical theater shows.</div>
+              <div class="hobby-name">Live Events</div>
+              <div class="hobby-desc">Attending all kinds of live cocnerts: Rock, EDM, Pop, Classical. You can also find me at improve, comedy, and musical theater shows.</div>
             </div>
           </li>
           <li class="hobby-item">
             <span class="hobby-icon">⚔️</span>
             <div>
               <div class="hobby-name">Gaming</div>
-              <div class="hobby-desc">Love playing multiplayer games with my friends. World of Warcraft is a staple in this house.</div>
+              <div class="hobby-desc">Playing multiplayer games with friends. World of Warcraft, Baldur's Gate, and Carcassonne are staples here.</div>
             </div>
           </li>
           <li class="hobby-item">
@@ -954,7 +954,7 @@
   <div class="section-content">
     <div class="cv-block fade-in">
       <div class="cv-title">Résumé</div>
-      <div class="cv-subtitle">PDF · Updated January 2025 · 1 page</div>
+      <div class="cv-subtitle">PDF · Updated January 2026 · 1 page</div>
       <a href="cv.pdf" class="cv-download" download>
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
         Download CV
@@ -971,7 +971,7 @@
     <div class="contact-inner fade-in">
       <div class="section-eyebrow" style="justify-content:center">Contact</div>
       <h2 class="section-title">Let's work<br>together.</h2>
-      <p class="contact-sub">Open to full-time roles, contract work, and interesting collaborations. Click to reveal my email — it's protected from scrapers.</p>
+      <p class="contact-sub">Open to full-time roles and interesting collaborations. Click to reveal my email — it's protected from scrapers.</p>
       <div>
         <div class="email-reveal-wrapper">
           <div class="email-display" id="emailDisplay">••••••••••@•••••••••••</div>
@@ -1010,13 +1010,14 @@
 
   // ── SKILLS DATA ──
   const skills = [
+    { name: 'Documentation',  pct: 1.00, level: 'Proficient'   },
     { name: 'PostgreSQL',  pct: 0.95, level: 'Proficient'   },
     { name: '.NET',  pct: 0.93, level: 'Proficient'   },
     { name: 'Java',  pct: 0.90, level: 'Proficient'   },
     { name: 'Kubernetes',  pct: 0.85, level: 'Competent'   },
     { name: 'Python',      pct: 0.83, level: 'Competent'  },
-    { name: 'AWS',         pct: 0.80, level: 'Competent'   },
-    { name: 'JavaScript',  pct: 0.50, level: 'Novice'  },
+    { name: 'AWS',         pct: 0.70, level: 'Competent'   },
+    { name: 'JavaScript',  pct: 0.60, level: 'Novice'  },
     { name: 'TypeScript',  pct: 0.40, level: 'Novice'  },
     { name: 'React',       pct: 0.35, level: 'Novice'  },
     { name: 'ABAP',          pct: 0.30, level: 'Novice'      },
@@ -1042,7 +1043,7 @@
       date: '2025 — Present',
       role: 'Senior Software Engineer',
       company: 'JPMC, Delaware',
-      desc: 'Run and maintaining a guardrail app spawning from an audit requirements for global developers (40k+ daily users). Architected in React and Java with a GraphQL backend.',
+      desc: 'Running and maintaining an audit required gaurdrail application for global developers (40k+ daily users). Architected in React and Java with a GraphQL backend.',
       tags: ['DataDog','Java','GraphQL','React','PostgreSQL','AWS','Kubernetes','GitHub']
     },
     {
@@ -1056,8 +1057,8 @@
       date: '2014 — 2022',
       role: 'Full-Stack Developer',
       company: 'SWM International, Delaware',
-      desc: 'Shipped features across 4 client products ranging from e-commerce platforms to internal tooling. Owned front-to-back implementation of a payment flow that processed $2M+ in its first year.',
-      tags: ['Angular','Javascript','C#.Net','Razor Pages', 'SVN', 'Syteline', 'Crystal Reports']
+      desc: 'Shipped features across e-commerce platforms as well as internal tooling. Front-to-back maintenance of a manufacturing app that processed millions of events per day.',
+      tags: ['Angular','JQuery','C#.Net','Razor Pages', 'SVN', 'Syteline Mongoose', 'Crystal Reports']
     },
     {
       date: '2011 — 2013',
@@ -1113,7 +1114,7 @@
   });
 
   // ── TRAVEL DATA ──
-  const places = ['Brazil','Bulgaria','Dubai','Mexico','Poland','Thailand','United Kingdom'];
+  const places = ['Aruba','Canada','Brazil','Bulgaria','Dubai','Mexico','Poland','Thailand','United Kingdom'];
   const tg = document.getElementById('travelGrid');
   places.forEach(p => { tg.innerHTML += `<div class="travel-badge">${p}</div>`; });
 
