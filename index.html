@@ -1023,7 +1023,7 @@
   ];
   const skillsChart = document.getElementById('skillsChart');
   skills.forEach(s => {
-    const isInside = s.pct > 0.45;
+    const isInside = s.pct > 0.70;
     skillsChart.innerHTML += `
       <div class="skill-row">
         <div class="skill-name">${s.name}</div>
